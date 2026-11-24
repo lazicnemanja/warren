@@ -8,15 +8,15 @@ and runs as many tunnels at the same time as you need. Use it from the CLI, from
 interactive TUI, or through a waybar module.
 
 ```
-╭ warren ──────────────────────────────────────────────────────────────────────────╮
+╭ warren ─────────────────────────────────────────────────────────────────────────────╮
 │  NAME                     STATE        VPN IP          SERVER          OTP  SECRETS │
 │▶ office                   connected    10.8.0.14       203.0.113.10    yes  saved   │
 │  datacenter-nue1          connected    10.1.122.143    10.1.2.122      no   saved   │
 │  customer-x               down                                         no   ask     │
-╰──────────────────────────────────────────────────────────────────── 2 connected ╯
-╭ log: office ─────────────────────────────────────────────────────────────────────╮
-│ Initialization Sequence Completed                                                │
-╰──────────────────────────────────────────────────────────────────────────────────╯
+╰──────────────────────────────────────────────────────────────────────── 2 connected ╯
+╭ log: office ────────────────────────────────────────────────────────────────────────╮
+│ Initialization Sequence Completed                                                   │
+╰─────────────────────────────────────────────────────────────────────────────────────╯
  ⏎ connect · x disconnect · X all  │  i import · e secrets · f forget · o otp · d delete  │  q quit
 ```
 
